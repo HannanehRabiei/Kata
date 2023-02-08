@@ -1,5 +1,4 @@
 package kata;
-
 public class WeekDays {
 
     public void days(int number) {
