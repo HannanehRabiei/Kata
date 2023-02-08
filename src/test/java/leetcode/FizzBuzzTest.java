@@ -1,9 +1,8 @@
 package leetcode;
 
-import org.assertj.core.api.Assertions;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
-
+import static org.assertj.core.api.Assertions.assertThat;
 
 class FizzBuzzTest {
 
@@ -15,21 +14,53 @@ class FizzBuzzTest {
     }
 
     @Test
-    void name() {
+    void should_return_fizz_given_3 () {
         String divisible = fizzBuzz.divisible(3);
-        Assertions.assertThat(divisible).isEqualTo("Fizz");
+        assertThat(divisible).isEqualTo("Fizz");
     }
 
     @Test
-    void name1() {
-        String divisible1 = fizzBuzz.divisible(5);
-        Assertions.assertThat(divisible1).isEqualTo("Buzz");
+    void should_return_fizz_given_6() {
+        String divisible = fizzBuzz.divisible(6);
+        assertThat(divisible).isEqualTo("Fizz");
+    }
+
+    @Test
+    void should_return_fizz_given_9() {
+        String divisible = fizzBuzz.divisible(9);
+        assertThat(divisible).isEqualTo("Fizz");
+    }
+
+    @Test
+    void should_return_buzz_given_5() {
+        String divisible = fizzBuzz.divisible(5);
+        assertThat(divisible).isEqualTo("Buzz");
 
     }
 
     @Test
-    void name2() {
-        String divisible1 = fizzBuzz.divisible(15);
-        Assertions.assertThat(divisible1).isEqualTo("FizzBuzz");
+    void should_return_buzz_given_10() {
+        String divisible = fizzBuzz.divisible(10);
+        assertThat(divisible).isEqualTo("Buzz");
+
+    }
+
+    @Test
+    void should_return_buzz_given_25() {
+        String divisible = fizzBuzz.divisible(25);
+        assertThat(divisible).isEqualTo("Buzz");
+
+    }
+
+    @Test
+    void should_return_fizzbuzz_given_15() {
+        String divisible = fizzBuzz.divisible(15);
+        assertThat(divisible).isEqualTo("FizzBuzz");
+    }
+
+    @Test
+    void should_return_fizzbuzz_given_30() {
+        String divisible = fizzBuzz.divisible(30);
+        assertThat(divisible).isEqualTo("FizzBuzz");
     }
 }

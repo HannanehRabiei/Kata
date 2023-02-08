@@ -2,28 +2,24 @@ package kata;
 
 public class WeekDays {
 
-    public int days(int zero , int one, int two, int three, int four, int five, int six) {
+    public void days(int number) {
 
-        int day=4;
-
-         if (day==zero)
+         if (number==0)
            System.out.println("saturday");
-       else if (day==one)
+       else if (number==1)
            System.out.println("sunday");
-      else if (day==two)
+      else if (number==2)
            System.out.println("monday");
-      else if (day==three)
+      else if (number==3)
            System.out.println("tuesday");
-      else if (day==four)
+      else if (number==4)
            System.out.println("wednesday");
-      else if (day==five)
+      else if (number==5)
            System.out.println("thursday");
-      else if (day==six)
+      else if (number==6)
            System.out.println("friday");
       else {
              System.out.println("end");
          }
-
-       return day;
     }
 }
