@@ -16,7 +16,6 @@ class QuarterOfYearTest {
 
     @Test
     void should_give_number_of_month_and_return_quarter_of_year() {
-        quarterOfYear=new QuarterOfYear();
         int month = 1;
 
        int partOfYear= quarterOfYear.quarterOf(month);
