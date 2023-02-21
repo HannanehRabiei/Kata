@@ -1,11 +1,12 @@
 package codewars;
 
-public class Dinglemouse {
+public class Dinglemouse8 {
 
     private static final int HUMAN_ONE_YEAR = 1;
     private static final int DOG_AND_CAT_ONE = 15;
     private static final int HUMAN_TOW = 2;
     public static final int DOG_AND_CAT_TWO = 24;
+    public static final int right=0;
 
 
     public  int[] humanYearsCatYearsDogYears( final int humanYears) {
@@ -21,7 +22,7 @@ public class Dinglemouse {
         int ageOfDog;
         if (humanYears > 2)
             ageOfCat = DOG_AND_CAT_TWO;
-        ageOfDog = DOG_AND_CAT_TWO;
+            ageOfDog = DOG_AND_CAT_TWO;
         for (int index = 3; index <= humanYears; index++) {
             ageOfCat += 4;
             ageOfDog += 5;

@@ -5,13 +5,13 @@ import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
 
-class DinglemouseTest {
+class Dinglemouse8Test {
 
-    private Dinglemouse age;
+    private Dinglemouse8 age;
 
     @BeforeEach
     void setUp() {
-        age=new Dinglemouse();
+        age=new Dinglemouse8();
     }
 
     @Test

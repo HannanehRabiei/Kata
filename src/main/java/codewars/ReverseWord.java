@@ -10,7 +10,6 @@ public class ReverseWord {
         for (int index = word.length() -1; index >= 0; index--) {
             reverseWords[count] = word.charAt(index);
             count++;
-
         }
         return String.valueOf(reverseWords);
     }
