@@ -25,7 +25,6 @@ public class Dinglemouse7 {
             age++;
         }
         return age;
-
     }
 
     private static int calculateAgeOfHumanBasedAgeCat(int catAge) {
@@ -39,7 +38,6 @@ public class Dinglemouse7 {
             age++;
         }
         return age;
-
     }
 }
 
