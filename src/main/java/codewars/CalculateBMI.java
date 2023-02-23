@@ -3,6 +3,7 @@ package codewars;
 public class CalculateBMI {
 
     public  String bmi(double weight, double height){
+
         double bmi = weight / ( height * height );
         if  (bmi <= 18.5)
             return "Underweight";
