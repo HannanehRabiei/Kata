@@ -12,6 +12,7 @@ public class Dinglemouse7 {
         int humanAgeOfDog = calculateAgeOfHumanBasedAgeDog(dogYears);
 
         return new int[]{humanAgeOfCat, humanAgeOfDog};
+
     }
 
     private static int calculateAgeOfHumanBasedAgeDog(int dogAge) {
