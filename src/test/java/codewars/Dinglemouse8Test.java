@@ -15,7 +15,7 @@ class Dinglemouse8Test {
     }
 
     @Test
-    void name() {
+    void humanYearsCatYearsDogYears() {
 
         int[] ages = age.humanYearsCatYearsDogYears(1);
         int[] expected = {1,15,15};

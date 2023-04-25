@@ -14,7 +14,7 @@ class CalculateBMITest {
     }
 
     @Test
-    void bayad_ghad_va_vazn_ro_begire_va_mizan_tanasob_ro_benvise() {
+    void should_calculate_bmi_for_Underweight_when_bmi_less_than_18_5() {
 
        String bmi = calculateBMI.bmi(80,1.80);
         assertThat(bmi).isEqualTo("Normal");

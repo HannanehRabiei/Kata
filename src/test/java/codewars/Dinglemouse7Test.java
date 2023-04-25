@@ -14,7 +14,7 @@ class Dinglemouse7Test {
     }
 
     @Test
-    void ownedCatAndDog() {
+    void owned_Cat_And_Dog() {
 
 
         int[] agesOfHuman_1 = getAgesOfHuman4(0, 15);
