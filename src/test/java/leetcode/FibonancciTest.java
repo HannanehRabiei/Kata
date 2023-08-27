@@ -6,7 +6,7 @@ import static org.junit.jupiter.api.Assertions.*;
 class FibonancciTest {
 
     @Test
-    public void negativeInput(){
+    public void PosetiveInput(){
 
         assertEquals(1, Fibonancci.fib(1));
         assertEquals(1, Fibonancci.fib(2));
