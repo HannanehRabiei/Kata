@@ -6,6 +6,7 @@ public class Kata {
         for (int index = start; index <= end; index++) {
             if (!hasFive(index))
                 count++;
+
         }
         return count;
 
@@ -13,6 +14,7 @@ public class Kata {
 
     private boolean hasFive(int number) {
         number = Math.abs(number);
+        System.out.println();
         while (number > 0) {
             if (number % 10 == 5)
                 return true;
